@@ -11,7 +11,7 @@ public class Calculator1 {
         double firstNum
         String secondNum;
 
-        while(True){ // not this line
+        while(True){
             System.out.println("Welcome. Would you like to: " // not these lines
             +"\n1) add"
             +"\n2) subtract"
