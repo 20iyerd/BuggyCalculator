@@ -6,22 +6,22 @@ public class Calculator1 {
 
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in); // not this line
+       
         integer operation;
-
         double firstNum
         String secondNum;
 
-        while(True){
+        while (True) {
             System.out.println("Welcome. Would you like to: " // not these lines
-            +"\n1) add"
-            +"\n2) subtract"
-            +"\n3) multiply"
-            +"\n4) divide"
-            +"\n5) exponent?");
+                +"\n1) add"
+                +"\n2) subtract"
+                +"\n3) multiply"
+                +"\n4) divide"
+                +"\n5) exponent?");
 
             operation = input.nextInt(); // not this line
 
-            if(operation == 1) {
+            if (operation == 1) {
                 System.out.println("Enter first number");
                 firstNum = input.nextDouble();
                 System.out.println("Enter second number");
@@ -29,7 +29,7 @@ public class Calculator1 {
 
                 System.out.println("Sum: " + (firstNum + secondNum));
             }
-            else if(operation == 2) {
+            else if (operation == 2) {
                 System.out.println("Enter first number");
                 firstNum = input.nextDouble();
                 System.out.println("Enter second number");
@@ -37,7 +37,7 @@ public class Calculator1 {
 
                 System.out.println("Difference: " + (firstNum - secondNum));
             }
-            else if(operation == 3) {
+            else if (operation == 3) {
                 System.out.println("Enter first number");
                 firstNum = input.nextDouble();
                 System.out.println("Enter second number");
@@ -45,7 +45,7 @@ public class Calculator1 {
 
                 System.out.println("Product: " + (firstNum * secondNum));
             }
-            else if(operation = 4) {
+            else if (operation = 4) {
                 System.out.println("Enter first number");
                 firstNum = input.nextDouble();
                 System.out.println("Enter second number");
@@ -53,7 +53,7 @@ public class Calculator1 {
 
                 System.out.println("Quotient: " + (firstNum / secondNum));
             }
-            else if(operation == 5) {
+            else if (operation == 5) {
                 System.out.println("Enter base");
                 firstNum = input.nextDouble();
                 System.out.println("Enter exponent");
